@@ -45,4 +45,6 @@ return require('packer').startup(function(use)
     config = function() require("nvim-autopairs").setup {} end
 
   }
+
+  use "lukas-reineke/indent-blankline.nvim"
 end)
